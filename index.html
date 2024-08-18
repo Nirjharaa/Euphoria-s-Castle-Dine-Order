@@ -1,0 +1,449 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Javascript</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<link rel="stylesheet"href="main.css">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/659a05c0a2.js" crossorigin="anonymous"></script>  
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap" rel="stylesheet">   </head>
+  <body>
+      <!--Navbar-->
+      <div id="nav"> <!--division/sections in html-->
+          <div class="toggle-btn"onclick="button()">
+            <span></span><!--wrap section for styling purpose-->
+            <span></span>
+            <span></span>
+        </div>
+        <ul><!-- Unordered list element -->
+            <li><a href="#hero">Home</a></li><!-- Represent items in list with links -->
+            <li><a href="#about">About</a></li>
+            <li><a href="#Deals">Deals</a></li>
+            <li><a href="#Blog">Blog</a></li>
+            <li><a href="#Contact">Contact</a></li>
+        </ul>
+        
+        <div class="social">
+            <i class="fab fa-facebook"></i><!--defines part of text in altername voice or mood-->
+            <i class="fab fa-twitter"></i><!--fonts awesome-->
+            <i class="fab fa-instagram"></i>
+        </div>
+      </div>
+      <!--end of Navbar-->
+      
+       
+       
+      <!--Hero Section-->
+      <section id="hero">
+          <div class="hero-container">
+              <div class="hero-logo">
+                  <img src="images/logo-1.png" alt=" Euphoria Castle">
+              </div>
+              <h1> Welcome To Euphoria Castle</h1>
+              <h2>We offer our customers the undeniable taste of fast food...)</h2>
+              <div class="actions">
+                  <a href="#" class="main-1">Main Page</a><!--href# used to link to top of page-->
+                  <a href="#" class="main-2"> Daily Deals </a>
+              </div>
+          </div>
+      </section>
+      <!---End of Hero Section-->
+<!--About us -->
+<section id="about">
+<div class="about mt-5"><!--margin top-->
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-5"><!--column large 5-->
+                <div class="section-header">
+                    <h2 class="text-uppercase">Why We?</h2>
+                </div>
+                <div class="about-text">
+                    <div class="about-img">
+                        <div class="row">
+                            <div class="col-6">
+                                <img src="images/noodle.jfif"alt="">
+                            </div>
+                            <div class="col-6">
+                                <img src="images/fries-1.jfif"alt="">
+                            </div>
+                            <div class="col-6">
+                                <img src="images/pasta.jfif"alt="">
+                            </div>
+                            <div class="col-6">
+                                <img src="images/burger.jfif"alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <p>
+                        With Euphoria's it is always “Rishton ka time”. Whether it's a treat for your promotion, a kid topping his class or winning the heart of your wife who is too tired to cook after a long day at work! A fresh and healthy fast food is all one needs to put things into perspective and start any celebration. Plus, you do not even need to rush to the restaurant to have one now. A call, a few clicks on our website or a few touches on the mobile screen is all you have to do to have that tempting, light-on-the-pocket food at your doorstep.                    </p>
+                    <a class="btn abt-btn"href="">Book a Table</a>
+                </div>
+            </div>
+            <div class="col-lg-7">
+                <div class="row">
+                    <div class="col-sm-6">
+                        <div class="about-detail">
+                            <i class="fas fa-utensils"></i><!--specific font icon from fonts awesome-->
+                            <h3>Professional Chefs</h3>
+                            <p>We have Professional chefs from all over the world who have their own expertise. </p><!--details inside-->
+                        </div>
+                    </div>
+                    <!----->
+                    <div class="col-sm-6">
+                        <div class="about-detail">
+                            <i class="fas fa-pepper-hot"></i>
+                            <h3>Organic Products</h3>
+                            <p> We offer you with the best organic veggies and fruits imported fresh from farms.</p>
+                        </div>
+                    </div>
+                    <!----->
+                    <div class="col-sm-6">
+                        <div class="about-detail">
+                            <i class="fas fa-stamp"></i>
+                            <h3>Quality Products</h3>
+                            <p> The quality which we offer you is the best made using the best of the ingredients only.</p>
+                        </div>
+                    </div>
+                    <!----->
+                    <div class="col-sm-6">
+                        <div class="about-detail">
+                            <i class="fas fa-cloud-meatball"></i>
+                            <h3>Fresh Meat</h3>
+                            <p> The meat always freshly imported and on daily basis with purest of its breed.</p>
+                        </div>
+                    </div>
+                    <!----->
+                    <div class="col-sm-6"><!--3 unequal columns-->
+                        <div class="about-detail">
+                            <i class="fas fa-truck"></i>
+                            <h3>On Time Delivery</h3>
+                            <p> The delivery has always been on time except for some undeniable circumstances, we always provide you the food on time.</p>
+                        </div>
+                    </div>
+                    <!----->
+                    <div class="col-sm-6">
+                        <div class="about-detail">
+                            <i class="fas fa-fish"></i>
+                            <h3>Low fat products</h3>
+                            <p> The food is made using virgin and low fat oils and it is made sure that it is cooked propely.</p>
+                        </div>
+                    </div>
+                    <!----->
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+</section>
+
+<!---End of About us-->
+<!--Deals of the Day -->
+<section id="Deals">
+    <div class="section mt-5"><!--full width container which spans the entire width of viewport-->
+        <div class="container-fluid">
+            <div class="section-title text-center">
+                <h3> Deals Of The Day</h3>
+            </div>
+            <div class="row">
+                <div class="col-md-3"><!--grid column class-->
+                    <div class="deal-box">
+                        <div>
+                            <img src="images/paneer chilli-1.jfif"class="img-fluid"alt="">
+                        </div>
+                        <h2>Paneer Chilli</h2>
+                        <a class="deal-btn"href="">Rs.120.00</a>
+                    </div>
+                </div>
+                <!----->
+                <div class="col-md-3">
+                    <div class="deal-box">
+                        <div>
+                            <img src="images/Burger-1.jfif"class="img-fluid"alt="">
+                        </div>
+                        <h2>Burgers</h2>
+                        <a class="deal-btn"href="">Rs.120.00</a>
+                    </div>
+                </div>
+                <!----->
+                <div class="col-md-3">
+                    <div class="deal-box">
+                        <div>
+                            <img src="images/sizzler.jfif"class="img-fluid"alt="">
+                        </div>
+                        <h2>Sizzlers</h2>
+                        <a class="deal-btn"href="">Rs.120.00</a>
+                    </div>
+                </div>
+                <!----->
+                <div class="col-md-3">
+                    <div class="deal-box">
+                        <div>
+                            <img src="images/cocktail.jfif"class="img-fluid"alt="">
+                        </div>
+                        <h2>Cocktails</h2>
+                        <a class="deal-btn"href="">Rs.120.00</a>
+                    </div>
+                </div>
+                <!----->
+                <div class="col-md-3">
+                    <div class="deal-box">
+                        <div>
+                            <img src="images/pizza-1.jfif"class="img-fluid"alt="">
+                        </div>
+                        <h2>Pizzas</h2>
+                        <a class="deal-btn"href="">Rs.120.00</a>
+                    </div>
+                </div>
+                <!----->
+                
+                <div class="col-md-3">
+                    <div class="deal-box">
+                        <div>
+                            <img src="images/garlic bread.jfif"class="img-fluid"alt="">
+                        </div>
+                        <h2>Cheese Garlic Breads</h2>
+                        <a class="deal-btn"href="">Rs.120.00</a>
+                    </div>
+                </div>
+                <!----->
+                <div class="col-md-3">
+                    <div class="deal-box">
+                        <div>
+                            <img src="images/manchurian-1.jfif"class="img-fluid"alt="">
+                        </div>
+                        <h2>Manchurians</h2>
+                        <a class="deal-btn"href="">Rs.120.00</a>
+                    </div>
+                </div>
+                <!----->
+                <div class="col-md-3">
+                    <div class="deal-box">
+                        <div>
+                            <img src="images/schezwan rice-1.jfif"class="img-fluid"alt="">
+                        </div>
+                        <h2>Schezwan Rice</h2>
+                        <a class="deal-btn"href="">Rs.120.00</a>
+                    </div>
+                </div>
+                <!----->
+            </div>
+        </div>
+    </div>
+</section>
+<!---End of the Deals-->
+<!---slider Section-->
+<section class="mt-3"><!--margin top and size-->
+    <h2 class="text-center">
+        Euphoria's Specialities..!
+        
+    </h2>
+    <div class="slideshow-container">
+        <div class="slides fade">
+            <div class="number">1/3</div>
+            <img src="images/pasta.jfif" style="width:100%">
+            <div class="text">Pastas</div>
+        </div> 
+        <div class="slides fade">
+            <div class="number">2/3</div>
+            <img src="images/paneer chilli-2.jfif" style="width:100%">
+            <div class="text">Paneer Chilli</div>
+        </div> 
+        <div class="slides fade">
+            <div class="number">3/3</div>
+            <img src="images/pizza-2.jfif" style="width:100%">
+            <div class="text">Pizzas</div>
+        </div>
+
+    </div>
+    <div style="text-align:center">
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+    </div>
+</section>
+<!----end of the slider-->
+<!--Blog Section-->
+<section id="Blog" class="mt-5">
+    <div class="container">
+        <div class="section-intro text-center pb-80px">
+            <h2>Recent Blogs</h2>
+        </div>
+        <div class="row">
+            <div class="col-md-6 col-lg-4 mb-4 mb-md-0">
+                <div class="card card-main">
+                    <div class="card-main-img">
+                        <img src="images/background.jpg"alt=""class="card-img">
+                    </div>
+                    <div class="card-body">
+                        <h4 class="card-title">
+                            <a href="#">Awesome pizza's...</a>
+                        </h4>
+                        <ul class="card-info">
+                            <li><a href="#"><!--a tag defines hyperlink-->
+                                <span class="card-icon">
+                                    <i class="far fa-calendar-alt"></i>
+                                    18 April, 2022
+                                </span>
+                            </a></li>
+                            <li><a href="#"><span class="card-icon">
+                                <i class="fas fa-comments"></i>
+                                03 comments
+                            </span></a></li>
+
+                        </ul>
+                        <p>  I am so gonna repeat it and come often with my friends too.</p>
+                        <a href="#"class="card-link">Read More
+                            <i class="fas fa-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <!----->
+            <div class="col-md-6 col-lg-4 mb-4 mb-md-0">
+                <div class="card card-main">
+                    <div class="card-main-img">
+                        <img src="images/background.jpg"alt=""class="card-img">
+                    </div>
+                    <div class="card-body">
+                        <h4 class="card-title">
+                            <a href="#">Mouth watering Sizzler...</a>
+                        </h4>
+                        <ul class="card-info">
+                            <li><a href="#">
+                                <span class="card-icon">
+                                    <i class="far fa-calendar-alt"></i>
+                                    25 April, 2022
+                                </span>
+                            </a></li>
+                            <li><a href="#"><span class="card-icon">
+                                <i class="fas fa-comments"></i>
+                                04 comments
+                            </span></a></li>
+
+                        </ul>
+                        <p>  Its one of the best sizzler i have ever tasted the way of presenting it is cool too.</p>
+                        <a href="#"class="card-link">Read More
+                            <i class="fas fa-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <!----->
+            <div class="col-md-6 col-lg-4 mb-4 mb-md-0">
+                <div class="card card-main">
+                    <div class="card-main-img">
+                        <img src="images/background.jpg"alt=""class="card-img">
+                    </div>
+                    <div class="card-body">
+                        <h4 class="card-title">
+                            <a href="#">Awesome Pasta's...</a>
+                        </h4>
+                        <ul class="card-info">
+                            <li><a href="#">
+                                <span class="card-icon">
+                                    <i class="far fa-calendar-alt"></i>
+                                    30 April, 2022
+                                </span>
+                            </a></li>
+                            <li><a href="#"><span class="card-icon">
+                                <i class="fas fa-comments"></i>
+                                07 comments
+                            </span></a></li>
+
+                        </ul>
+                        <p>  The pastas are cooked well and they are so chewy with a yummy gravy.</p>
+                        <a href="#"class="card-link">Read More
+                            <i class="fas fa-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <!----->
+        </div>
+    </div>
+</section>
+<!--End of Blog Section-->
+
+<footer id="Contact" class="footer-sec mt-5 mx-auto" style="background-color: black; color: azure; padding-top: 20px;"><!--defines footer-->
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-3 col-sm-6 mb-4 mb-xl-0 footer-widget">
+                <h4>About Us</h4>
+                <p>Euphoria's Castle is all about quality you can trust. As one of the original founding Fast food brands and the 3rd largest Fast food chain in India, our sole mission is making the freshest, tastiest and funnest food around.</p>
+                <div class="footer-logo">
+                    <h3 class="text-white">Euphoria's Castle</h3>
+                </div>
+            </div>
+            <div class="col-lg-3 col-sm-6 mb-4 mb-xl-0 footer-widget">
+                <h4>Contact Info</h4>
+                <div class="footer-address">
+                    <p>6-8 Sayana City Road Sola, Near Science Square Complex,Ahmedabad 380061</p>
+                    <span>Phone: +91 91 123 456 78</span>
+                    <span>email: euphoriascastle@gmail.com</span>
+                </div>
+            </div>
+            <div class="col-lg-3 col-sm-6 mb-4 mb-xl-0 footer-widget">
+                <h4> Important Links</h4>
+                <ul>
+                    <li><a href="#">Instagram id: Euphorias_Castle</a></li>
+                    <li><a href="#">Facebook id: Euphorias_Castle</a></li>
+                    <li><a href="#">Twitter id: Euphorias_Castle</a></li>
+                    <li><a href="#">Telegram channel: Euphorias_Castle</a></li>
+                    <li><a href="#">Youtube channel: Euphorias_Castle</a></li>
+                </ul>
+
+            </div>
+           <div class="col-lg-3 col-sm-6 col-md-6 mb-4 mb-xl-0 footer-widget">
+                <h4> Newsletter</h4>
+                <p>You may write anything via this. Your responce will be highly appreciated by us.</p>
+                <div class="form-wrap">
+                    <form>
+                        <div class="input-group">
+                            <input type="email"class="form-control" style="padding: 20px;" name="Email"placeholder="Email Address">
+                            <div class="input-group-append">
+                                <button class="btn click-btn" style="background-color:gray; padding: 0px;" type="submit">
+                                    <i class="fab fa-telegram-plane"></i>
+                                </button>
+                            </div>
+
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+        
+            <div class="footer-bottom row align-items-center text-center
+            text-lg-left no-gutters">
+            <p class="footer-text m-0 col-lg-8 col-md-12">
+                Copyright&copy;<script>document.write(new Date().getFullYear());</script><!--to embed clint side docs-->
+                All rights Reserved Designed  
+                <i class="fas fa-heart" aria-hidden="true"></i>
+                By Euphoria's Castle
+            </p>
+            <div class="col-lg-4 col-md-12 text-center text-lg-right footer-social">
+                <a href="#"><i class="fab fa-facebook"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+            </div>
+        
+        
+        </div>
+
+        </div>
+    </div>
+</footer>
+
+
+
+    <!-- Optional JavaScript -->
+    <script src="main.js"></script>
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
+</html> 
